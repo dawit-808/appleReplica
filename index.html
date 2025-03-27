@@ -17,19 +17,19 @@
   </head>
   <body>
     <!-- nav  -->
-    <nav class="navbar navbar-expand-lg p-1">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top p-1 text-white">
       <div class="container-fluid">
         <!-- Apple Logo (Visible only on mobile) -->
-        <a class="navbar-brand d-lg-none" href="#">
-          <i class="fa-brands fa-apple" style="color: #ffffff"></i>
+        <a class="navbar-brand d-md-none text-white" href="#">
+          <i class="fa-brands fa-apple"></i>
         </a>
 
         <!-- Right-side icons (Mobile only) -->
-        <div class="d-lg-none d-flex align-items-center ms-auto gap-5">
-          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
-          <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>
+        <div class="d-md-none d-flex align-items-center ms-auto gap-5">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-bookmark"></i>
           <div id="menu" class="menu">
-            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+            <i class="fa-solid fa-bars"></i>
           </div>
         </div>
 
@@ -37,9 +37,9 @@
         <div class="collapse navbar-collapse justify-content-center">
           <ul class="navbar-nav gap-2">
             <!-- Apple Logo (Centered on large screens) -->
-            <li class="nav-item apple-logo d-none d-lg-flex">
-              <a class="nav-link" href="#">
-                <i class="fa-brands fa-apple" style="color: #ffffff"></i>
+            <li class="nav-item apple-logo d-none d-md-flex">
+              <a class="nav-link text-white" href="#">
+                <i class="fa-brands fa-apple"></i>
               </a>
             </li>
 
@@ -78,7 +78,7 @@
             </li>
 
             <!-- Icons (Only visible on large screens) -->
-            <li class="nav-item d-none d-lg-block">
+            <li class="nav-item d-none d-md-block">
               <a class="nav-link" href="#">
                 <i
                   class="fa-solid fa-magnifying-glass"
@@ -86,7 +86,7 @@
                 ></i>
               </a>
             </li>
-            <li class="nav-item d-none d-lg-block">
+            <li class="nav-item d-none d-md-block">
               <a class="nav-link" href="#">
                 <i class="fa-regular fa-bookmark" style="color: #ffffff"></i>
               </a>
@@ -95,7 +95,57 @@
         </div>
       </div>
     </nav>
+    <main>
+      <!-- section 1 -->
+      <section
+        class="section1 d-flex flex-column justify-content-end justify-content-md-start"
+      >
+        <div class="descriptions container text-center text-white">
+          <h1>iPhone 16 Pro</h1>
+          <h3>Hello, Apple Intelligence.</h3>
+          <div class="links">
+            <button
+              class="btn btn-primary rounded-pill"
+              type="button"
+              title="Learn more about iPhone 16 Pro"
+            >
+              Learn more
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-primary rounded-pill"
+              title="Buy the iPhone 16 Pro now"
+            >
+              Buy
+            </button>
+          </div>
+        </div>
+      </section>
 
+      <!-- section 2 -->
+      <section class="section2 p-5">
+        <div class="descriptions container text-center text-white">
+          <h1>iPhone 16 Pro</h1>
+          <h3>Hello, Apple Intelligence.</h3>
+          <div class="links">
+            <button
+              class="btn btn-primary rounded-pill"
+              type="button"
+              title="Learn more about iPhone 16 Pro"
+            >
+              Learn more
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-primary rounded-pill"
+              title="Buy the iPhone 16 Pro now"
+            >
+              Buy
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
