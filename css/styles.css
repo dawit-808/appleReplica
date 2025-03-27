@@ -28,6 +28,7 @@ h1 {
 h6 {
   font-size: 1rem;
 }
+/* main */
 /* section 1 */
 .section1 {
   height: 650px;
@@ -52,7 +53,7 @@ h6 {
   height: 650px;
   background-image: url("../images/home/watch-mobile.png");
   background-size: auto;
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   margin: 10px 0;
 }
@@ -60,9 +61,41 @@ h6 {
   width: 18vw;
   margin: 0 auto;
 }
-/* section 3 */
+
+/* cards section */
+.card {
+  height: 550px; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card1 {
+  background-image: url("../images/home/announce.jpg");
+}
+
+.card2 {
+  background-image: url("../images/home/mac.jpg");
+}
+
+.card3 {
+  background-image: url("../images/home/ipad-mobile.jpg");
+}
+
+.card4 {
+  background-image: url("../images/home/baseball.jpg");
+}
+
+.card5 {
+  background-image: url("../images/home/trade.jpg");
+}
+
+.card6 {
+  background-image: url("../images/home/card.jpg");
+}
 
 @media (min-width: 720px) {
+  /* main section */
   h1 {
     font-size: 3rem; /* Larger font size for md screens */
   }
@@ -85,5 +118,9 @@ h6 {
   .section3 {
     background-image: url("../images/home/watch.jpg");
     background-size: cover;
+  }
+  /* cards */
+  .card3 {
+    background-image: url("../images/home/ipad.jpg");
   }
 }
