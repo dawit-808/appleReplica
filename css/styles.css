@@ -70,6 +70,13 @@ h6 {
   background-repeat: no-repeat;
 }
 
+.intel {
+  background: linear-gradient(90deg, #098ef8, #a56eff, #ff5db1, #ff7b3e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .card1 {
   background-image: url("../images/home/announce.jpg");
 }
